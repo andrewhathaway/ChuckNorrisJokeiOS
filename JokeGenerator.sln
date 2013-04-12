@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JokeGenerator", "JokeGenerator\JokeGenerator.csproj", "{D6200FDD-B1E6-407E-972C-153832E6D818}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6200FDD-B1E6-407E-972C-153832E6D818}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{D6200FDD-B1E6-407E-972C-153832E6D818}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{D6200FDD-B1E6-407E-972C-153832E6D818}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{D6200FDD-B1E6-407E-972C-153832E6D818}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{D6200FDD-B1E6-407E-972C-153832E6D818}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{D6200FDD-B1E6-407E-972C-153832E6D818}.Debug|iPhone.Build.0 = Debug|iPhone
+		{D6200FDD-B1E6-407E-972C-153832E6D818}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{D6200FDD-B1E6-407E-972C-153832E6D818}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{D6200FDD-B1E6-407E-972C-153832E6D818}.Release|iPhone.ActiveCfg = Release|iPhone
+		{D6200FDD-B1E6-407E-972C-153832E6D818}.Release|iPhone.Build.0 = Release|iPhone
+		{D6200FDD-B1E6-407E-972C-153832E6D818}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{D6200FDD-B1E6-407E-972C-153832E6D818}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = JokeGenerator\JokeGenerator.csproj
+	EndGlobalSection
+EndGlobal
