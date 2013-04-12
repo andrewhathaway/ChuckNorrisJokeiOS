@@ -16,6 +16,9 @@ namespace JokeGenerator
 
 		[Action ("btnGrabJoke:")]
 		partial void btnGrabJoke (MonoTouch.Foundation.NSObject sender);
+
+		[Action ("btnTweet:")]
+		partial void btnTweet (MonoTouch.Foundation.NSObject sender);
 		
 		void ReleaseDesignerOutlets ()
 		{

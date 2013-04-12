@@ -2,6 +2,7 @@ Mono.Security.dll
 Newtonsoft.Json.dll
 System.Core.dll
 System.Runtime.Serialization.dll
+System.Web.Services.dll
 System.Xml.dll
 System.dll
 mscorlib.dll

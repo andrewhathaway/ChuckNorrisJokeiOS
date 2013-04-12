@@ -83,9 +83,7 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\Components\json.net-4.5.11\lib\ios\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="System.Web">
-      <HintPath>..\..\..\Downloads\system.web.dll\system.web.dll</HintPath>
-    </Reference>
+    <Reference Include="System.Web.Services" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />

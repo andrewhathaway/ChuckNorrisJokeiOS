@@ -1,0 +1,226 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63D54C000000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CE615E00000000000000000 /* UIKit.framework */; };
+		27D2F7F30000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B6404910000000000000000 /* MapKit.framework */; };
+		3D06608B0000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 976D29000000000000000000 /* Foundation.framework */; };
+		307142D40000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34024F720000000000000000 /* CoreGraphics.framework */; };
+		1E2377480000000000000000 /* Main.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21B483E60000000000000000 /* Main.xib */; };
+		3A4616000000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 3DD7229E0000000000000000 /* AppDelegate.h */; };
+		3A1332E40000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA43F820000000000000000 /* AppDelegate.m */; };
+		12D7A81A0000000000000000 /* Main.h in Sources */ = {isa = PBXBuildFile; fileRef = 1668B4B80000000000000000 /* Main.h */; };
+		1D57EAD80000000000000000 /* Main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E8F7760000000000000000 /* Main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20FEA90E0000000000000000 /* JokeGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "JokeGenerator.app"; path = "JokeGenerator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CE615E00000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		2B6404910000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		976D29000000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		34024F720000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		21B483E60000000000000000 /* Main.xib */ = {isa = PBXFileReference; name = "Main.xib"; path = "Screens/Main.xib"; sourceTree = "<group>"; };
+		3DD7229E0000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		3DA43F820000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		1668B4B80000000000000000 /* Main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Main.h"; path = "Main.h"; sourceTree = "<group>"; };
+		20E8F7760000000000000000 /* Main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Main.m"; path = "Main.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BF16ACB0000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D54C000000000000000000 /* UIKit.framework in Frameworks */,
+				27D2F7F30000000000000000 /* MapKit.framework in Frameworks */,
+				3D06608B0000000000000000 /* Foundation.framework in Frameworks */,
+				307142D40000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C0ADC590000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				26A490A50000000000000000 /* JokeGenerator */,
+				A4F0ED100000000000000000 /* Frameworks */,
+				3157B67F0000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3157B67F0000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20FEA90E0000000000000000 /* JokeGenerator.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		A4F0ED100000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CE615E00000000000000000 /* UIKit.framework */,
+				2B6404910000000000000000 /* MapKit.framework */,
+				976D29000000000000000000 /* Foundation.framework */,
+				34024F720000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		26A490A50000000000000000 /* JokeGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				3DD7229E0000000000000000 /* AppDelegate.h */,
+				1668B4B80000000000000000 /* Main.h */,
+				3E3CE8D60000000000000000 /* Screens */,
+				314204E70000000000000000 /* Supporting Files */,
+			);
+			name = "JokeGenerator";
+			sourceTree = "<group>";
+		};
+		3E3CE8D60000000000000000 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				21B483E60000000000000000 /* Main.xib */,
+			);
+			name = "Screens";
+			sourceTree = "<group>";
+		};
+		314204E70000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DA43F820000000000000000 /* AppDelegate.m */,
+				20E8F7760000000000000000 /* Main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CC83A550000000000000000 /* JokeGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 164B83340000000000000000 /* Build configuration list for PBXNativeTarget "JokeGenerator" */;
+			buildPhases = (
+				68B1F1700000000000000000 /* Sources */,
+				1BF16ACB0000000000000000 /* Frameworks */,
+				2F75BEA20000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JokeGenerator";
+			productName = "JokeGenerator";
+			productReference = 20FEA90E0000000000000000 /* JokeGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2215147B0000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 80750BC00000000000000000 /* Build configuration list for PBXProject "JokeGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3C0ADC590000000000000000;
+			productRefGroup = 3157B67F0000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CC83A550000000000000000 /* JokeGenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F75BEA20000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E2377480000000000000000 /* Main.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68B1F1700000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A4616000000000000000000 /* AppDelegate.h in Sources */,
+				3A1332E40000000000000000 /* AppDelegate.m in Sources */,
+				12D7A81A0000000000000000 /* Main.h in Sources */,
+				1D57EAD80000000000000000 /* Main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2098E2D60000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		3D542AE20000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "JokeGenerator";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80750BC00000000000000000 /* Build configuration list for PBXProject "JokeGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2098E2D60000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		164B83340000000000000000 /* Build configuration list for PBXNativeTarget "JokeGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D542AE20000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2215147B0000000000000000 /* Project object */;
+}

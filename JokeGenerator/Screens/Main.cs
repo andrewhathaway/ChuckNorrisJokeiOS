@@ -7,6 +7,7 @@ using System.Web;
 using Newtonsoft.Json;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
+using MonoTouch.Twitter;
 
 namespace JokeGenerator {
 	
@@ -42,6 +43,17 @@ namespace JokeGenerator {
 					_notice.Show();
 				}
 
+			}
+		}
+
+		partial void btnTweet(MonoTouch.Foundation.NSObject sender) {
+			bool canSend = TWTweetComposeViewController.CanSendTweet;
+			
+			if(canSend) {
+				var tweetSheet = new TWTweetComposeViewController();
+				tweetSheet.SetInitialText(txtOutput.Text);
+				
+				this.PresentModalViewController(tweetSheet, true);
 			}
 		}
 		
