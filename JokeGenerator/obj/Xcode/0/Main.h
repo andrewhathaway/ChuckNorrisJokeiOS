@@ -12,10 +12,11 @@
 
 
 @interface Main : UIViewController {
-    UITextField *txtOutput;
+    UITextView *txtOutput;
 }
 
-@property (retain, nonatomic) IBOutlet UITextField *txtOutput;
+
+@property (retain, nonatomic) IBOutlet UITextView *txtOutput;
 - (IBAction)btnGrabJoke:(id)sender;
 - (IBAction)btnTweet:(id)sender;
 

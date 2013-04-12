@@ -19,6 +19,7 @@
 
 - (void)dealloc {
     [_txtOutput release];
+    [_txtOutput release];
     [super dealloc];
 }
 @end
