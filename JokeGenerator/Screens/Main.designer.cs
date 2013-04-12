@@ -12,7 +12,7 @@ namespace JokeGenerator
 	partial class Main
 	{
 		[Outlet]
-		MonoTouch.UIKit.UITextView txtOutput { get; set; }
+		MonoTouch.UIKit.UITextField txtOutput { get; set; }
 
 		[Action ("btnGrabJoke:")]
 		partial void btnGrabJoke (MonoTouch.Foundation.NSObject sender);

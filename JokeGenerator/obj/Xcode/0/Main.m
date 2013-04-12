@@ -17,4 +17,8 @@
 - (IBAction)btnTweet:(id)sender {
 }
 
+- (void)dealloc {
+    [_txtOutput release];
+    [super dealloc];
+}
 @end

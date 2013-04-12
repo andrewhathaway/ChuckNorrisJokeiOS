@@ -47,9 +47,9 @@ namespace JokeGenerator {
 		}
 
 		partial void btnTweet(MonoTouch.Foundation.NSObject sender) {
-			bool canSend = TWTweetComposeViewController.CanSendTweet;
+			bool canTweet = TWTweetComposeViewController.CanSendTweet;
 			
-			if(canSend) {
+			if(canTweet) {
 				var tweetSheet = new TWTweetComposeViewController();
 				tweetSheet.SetInitialText(txtOutput.Text);
 				
