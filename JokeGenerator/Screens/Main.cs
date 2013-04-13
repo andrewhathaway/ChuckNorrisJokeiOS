@@ -54,6 +54,9 @@ namespace JokeGenerator {
 				tweetSheet.SetInitialText(txtOutput.Text);
 				
 				this.PresentModalViewController(tweetSheet, true);
+			} else {
+				UIAlertView _notice = new UIAlertView("Gutted", "You don't have twitter enabled in settings.", null, "Okay", null);
+				_notice.Show();
 			}
 		}
 		
