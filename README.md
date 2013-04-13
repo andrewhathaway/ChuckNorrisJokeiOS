@@ -6,7 +6,7 @@ Current features
 - Press button to grab new joke
 - Tweet sheet of the current joke
 
-Jokes from [ICNDB](http://api.icndb.com)
+Jokes from [ICNDB](http://icndb.com)
 
 Screenshot: http://c.nath.is/OHqJ
 
