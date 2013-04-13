@@ -15,10 +15,10 @@ namespace JokeGenerator {
 
 		public const string API_BASE = "http://api.icndb.com/";
 		
-		public Main() : base ("Main", null) {}
+		public Main() : base("Main", null) {}
 		
 		public override void DidReceiveMemoryWarning() {
-			base.DidReceiveMemoryWarning ();
+			base.DidReceiveMemoryWarning();
 		}
 		
 		public override void ViewDidLoad() {
