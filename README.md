@@ -6,7 +6,8 @@ Current features
 - Press button to grab new joke
 - Tweet sheet of the current joke
 
+Jokes from [ICNDB](api.icndb.com)
 
-Screenshot: http://c.nath.is/OFJO
+Screenshot: http://c.nath.is/OHqJ
 
 - [Andrew Hathaway](http://twitter.com/andrewhathaway)
